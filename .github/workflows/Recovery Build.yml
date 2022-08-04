@@ -149,7 +149,7 @@ jobs:
 
     - name: Sync additional deps for PBRP/SHRP
       run: |
-         git clone https://github.com/phhusson/vendor_lptools -b master
+         git clone https://github.com/phhusson/vendor_lptools -b master external/lptools
       working-directory: ${{ steps.pwd.outputs.pwd }}
       continue-on-error: true
 
